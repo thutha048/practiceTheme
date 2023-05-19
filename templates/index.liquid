@@ -27,6 +27,6 @@
   {{- collection.title | link_to: collection.url }}
 {% endfor %}
 
-{% for product in collections['featured-collection'].products %}
-  {{- product.title  }}
+{% for collection in collections['featured-collection'] %}
+    {{collection.title  }}
 {% endfor %}
