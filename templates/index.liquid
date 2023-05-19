@@ -22,10 +22,11 @@
    {% endfor %}
 </ul>
 
+{% assign collection =collections['featured-collection'] %}
+    {{collection.title }}
+
 
 {% for collection in collections %}
   {{- collection.title | link_to: collection.url }}
 {% endfor %}
 
-{% assign collection =collections['featured-collection'] %}
-    {{collection.title }}
