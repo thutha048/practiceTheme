@@ -16,8 +16,8 @@
 {% assign array= 'Hello,2,3,4,5' | split: ',' %}
 <ul>
  {% for i in array %}
-   {% if i.size>2 %}
-   <li>{{ i }}</li>
+   {% if i.size >2 %}
+       <li>{{ i }}</li>
      {% endif %}
    {% endfor %}
 </ul>
