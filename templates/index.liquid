@@ -27,6 +27,6 @@
   {{- collection.title | link_to: collection.url }}
 {% endfor %}
 
-{% for product in collections['sale-potions'].products %}
+{% for product in collections['featured-collection'].products %}
   {{- product.title | link_to: product.url }}
 {% endfor %}
