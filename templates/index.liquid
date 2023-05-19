@@ -21,3 +21,8 @@
     {% endif %}
    {% endfor %}
 </ul>
+
+
+{% for collection in collections %}
+  {{- collection.title | link_to: collection.url }}
+{% endfor %}
