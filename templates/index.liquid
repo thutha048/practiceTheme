@@ -14,6 +14,9 @@
  {{ variable }}
 
 {% assign array= '1,2,3,4,5' | split: ',' %}
+<ul>
+  
  {% for i in array %}
-   {{ i }}
+   <li>{{ i }}</li>
    {% endfor %}
+</ul>
