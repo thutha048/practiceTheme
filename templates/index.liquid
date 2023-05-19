@@ -27,6 +27,5 @@
   {{- collection.title | link_to: collection.url }}
 {% endfor %}
 
-{% for collection in collections['featured-collection'] %}
-    {{collection.title  }}
-{% endfor %}
+{% assign collection =collections['featured-collection'] %}
+    {{collection.title }}
