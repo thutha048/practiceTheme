@@ -30,7 +30,8 @@
     {{collection}}
 
 <br>
-{% for collection in collections %}
-  {{- collection.title | link_to: collection.url }}
+{% for product in products %}
+  {{- product.title}}
 {% endfor %}
+
 
