@@ -22,13 +22,13 @@
    {% endfor %}
 </ul>
 
-{% assign collection = collections['featured-collection'] %}
-    {{ collection }}
+<!-- {% assign collection = collections['featured-collection'] %}
+    {{ collection }} -->
 <br>
 
-<!-- {% assign collection = collections['home-page'] %}
+{% assign collection = collections['home-page'] %}
     {{collection}}
- -->
+
 <br>
 {% for product in collection.products %}
   {{ product }}
