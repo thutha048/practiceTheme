@@ -1,0 +1,74 @@
+{{ 'header.css' | asset_url | stylesheet_tag }}
+
+<div class="header-container">
+  <div class="header-top">
+    <div class="container">
+      <div class="header-top-left">
+        <div class="social">
+          <a href="#">
+            <div><img src="{{ 'fb.png' | asset_url }}" /></div>
+          </a>
+          <a href="#">
+            <div class="ins"><img src="{{ 'ins.png' | asset_url }}" /></div>
+          </a>
+        </div>
+        <div class="lang">
+          <span>US $</span><img src="{{ 'down.png' | asset_url }}" /></div>
+        <div class="lang">
+          <span>EN</span><img src="{{ 'down.png' | asset_url }}" /></div>
+      </div>
+      <div class="text-header">
+        <p>Free shipping until Saturday with promo code PROMO</p>
+      </div>
+      <div class="header-top-right">
+        <div class="user">
+          <span>My account</span>
+          <img src="{{ 'user.png' | asset_url }}" />
+        </div>
+        <div class="cart">
+          <span>Shopping bag
+            <span>(0)</span>
+          </span>
+          <img src="{{ 'cart.png' | asset_url }}" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-menu">
+    <div class="container">
+      <div class="logo">
+        <a href="#"><img src="{{ 'logo.png' | asset_url }}" /></a>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Hair</a>
+        </li>
+        <li>
+          <a href="#">Face</a>
+        </li>
+        <li>
+          <a href="#">Hands</a>
+        </li>
+        <li>
+          <a href="#">Perfume</a>
+        </li>
+        <li>
+          <a href="#">Body &amp; Path</a>
+        </li>
+        <li>
+          <a href="#">New in stock</a>
+        </li>
+        <li>
+          <a href="#">Our blog</a>
+        </li>
+        <li>
+          <a href="#">Our brand</a>
+        </li>
+      </ul>
+      <div class="icon-search">
+        <input type="text" placeholder="Search">
+        <span><img src="{{ 'search.png' | asset_url }}" /></span>
+      </div>
+    </div>
+  </div>
+</div>

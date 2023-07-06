@@ -1,0 +1,48 @@
+{{ 'main.css' | asset_url | stylesheet_tag }}
+<div class="main-container">
+  <div class="main-content">
+    <div class="slider">
+      <div class="slide-image">
+        <div class="image"><img src="{{ 'mockup6.png' | asset_url }}" /></div>
+      </div>
+      <div class="navigation-slide">
+        <div class="left"><img src="{{ 'left.png' | asset_url }}" /></div>
+        <div class="text-slide">
+          <h1>Brand new fragrance for you</h1>
+          <h2>Discover our new experience</h2>
+          <a href="#">I want it!</a>
+        </div>
+        <div class="right"><img src="{{ 'right.png' | asset_url }}" /></div>
+      </div>
+
+    </div>
+    <div class="checkOut">
+      <h1>Check out our new collection</h1>
+      <div>
+        <div>
+          <a href="#"><img src="{{ 'mockup2.png' | asset_url }}" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="{{ 'mockup9.png' | asset_url }}" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="{{ 'mockup3.png' | asset_url }}" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="{{ 'mockup4.png' | asset_url }}" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="{{ 'mockup8.png' | asset_url }}" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="{{ 'mockup1.png' | asset_url }}" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="allOur">
+      <h1>All our products are organic!</h1>
+      <p>Excerpt from the article. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="#">Discover the process</a>
+    </div>
+  </div>
+</div>
