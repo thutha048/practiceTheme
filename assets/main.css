@@ -1,0 +1,113 @@
+.container {
+  max-width: 1306px;
+  margin: 0 auto;
+}
+.slider {
+    width: 100%;
+    position: relative;
+  }
+  .slider .slide-image {
+    width: 100%;
+  }
+  .slider .slide-image img {
+    width: 100%;
+  }
+  .navigation-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .navigation-slide .left {
+    margin-left: 30px;
+    cursor: pointer;
+  }
+  .navigation-slide .right {
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .navigation-slide .text-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navigation-slide .text-slide h1 {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .navigation-slide .text-slide h2 {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .navigation-slide .text-slide a {
+    display: block;
+    width: 119px;
+    height: 34px;
+    background-color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 34px;
+    color: #000000;
+    font-size: 14px;
+  }
+  .checkOut {
+    margin-top: 100px;
+    padding: 0 30px;
+  }
+  .checkOut h1 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 33px;
+  }
+  .checkOut > div{
+    display: flex;
+    justify-content: space-between;
+  }
+  .checkOut > div > div {
+    width: 243px;
+    height: 364px;
+  }
+  .checkOut > div > div:nth-child(odd) {
+    margin-top: 30px;
+  }
+  .checkOut > div > div a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .checkOut > div > div a img {
+    width: 100%;
+    height: 100%;
+  }
+  .allOur {
+    background-color: #FEFAF2;
+    height: 380px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .allOur p {
+    font-size: 14px;
+    color: #000000;
+    margin: 17px 0;
+  }
+  .allOur a {
+    display: block;
+    width: 183px;
+    height: 34px;
+    background-color: #000000;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 34px;
+  }

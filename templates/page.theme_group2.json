@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "header": {
+      "type": "section-header",
+      "settings": {
+      }
+    },
+    "featuredCollection": {
+      "type": "featured-collection-test",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "section-main",
+      "settings": {
+      }
+    },
+    "product": {
+      "type": "product",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "header",
+    "featuredCollection",
+    "main",
+    "product"
+  ]
+}
